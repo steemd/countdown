@@ -1,0 +1,13 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+#text-11 .timer-date div{
+	display: inline-block;
+	font-size: 38px;
+	margin: 20px;
+}
