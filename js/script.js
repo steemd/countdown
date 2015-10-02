@@ -11,7 +11,7 @@ if (timerEl !== null) {
 		var lastMin = 60 - nowDate.getMinutes();
 		var lastSec = 60 - nowDate.getSeconds();
 			  
-		timerEl.innerHTML = "<div>" + lastDays + " дней</div><div>" + lastHrs + " часов</div><div>" + lastMin + " минут</div><div>" + lastSec + " секунд</div>";
+		timerEl.innerHTML = "<div>" + lastDays + " <span>дней</span></div><div>" + lastHrs + " <span>часов</span></div><div>" + lastMin + " <span>минут</span></div><div>" + lastSec + " <span>секунд</span></div>";
 		
 		if (lastDays == 0) {clearInterval(DateTimer); }
 	}, 1000);
